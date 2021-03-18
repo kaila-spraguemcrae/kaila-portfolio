@@ -23,11 +23,12 @@ This project uses the following technologies:
 
 - React
 - Sass
+- [Bootstrap 5](https://getbootstrap.com/) 
 - [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
 - [three.js](https://threejs.org/)
 - [drei](https://github.com/pmndrs/drei)
 - WebGL
-- glsl
+- [react-scroll](https://github.com/fisshy/react-scroll)
 - JSX
 - JavaScript ES6
 - git/GitHub
