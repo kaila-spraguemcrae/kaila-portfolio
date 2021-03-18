@@ -1,12 +1,74 @@
-# Getting Started with Create React App
+<br>
+<h1 align = "center">
+  <b>Portfolio</b>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align = "center"> 
+  Created March 18, 2021 
+</p>
 
-## Available Scripts
+<p align = "center">
+  By Kaila Sprague McRae
+</p>
 
-In the project directory, you can run:
+<!-- <p align = "center">
+<a href="">Live Site</a>
+</p> -->
 
-### `npm start`
+--------------------
+
+## 🛠️ Technologies Used
+
+This project uses the following technologies:
+
+- React
+- Sass
+- [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
+- [three.js](https://threejs.org/)
+- [drei](https://github.com/pmndrs/drei)
+- WebGL
+- glsl
+- JSX
+- JavaScript ES6
+- git/GitHub
+- VS Code
+
+-------------------
+
+## 🔧 Setup & Requirements
+
+### 📋 Necessary Specifications
+
+#### To run this project locally you will need:
+
+- **Node.js :** You can check if you have Node.js by running `node -v` in the command line. If you do not have Node.js please find more information and download [here](https://nodejs.org/en/)
+* you can also install node through Homebrew by running `brew install node` in the command line.
+- **Jest :** If your testing does not run, you may need to install Jest, you can do this by running `npm install jest@24.9.0 --save-dev` in the command line.
+- **Prefered Code Editor**
+
+### ⚙️ Clone or Download
+
+#### To Download:
+
+Go to my GitHub repository here, [https://guthub.com/kaila.spraguemcrae/kaila-portfolio](https://guthub.com/kaila.spraguemcrae/kaila-portfolio), and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file
+
+#### To clone (my prefered method):
+
+1. Push the green 'Clone' button and copy the URL.
+2. Open Terminal or GitBash and input the command: `git clone https://github.com/kaila-spraguemcrae/kaila-portfolio`
+3. To view the code, open the copied directory with Visual Studio Code or your preferred text editor by inputing the command `code .` in your terminal.
+
+### 🧰  Setup Options
+
+#### `npm install` 
+
+This insures you have all of the necessary files to run the program.
+
+#### `npm test`
+
+This allows you to test the applications action creators and reducers.
+
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +76,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,44 +84,43 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+--------------------------
 
-### `npm run eject`
+## 🐛 Known Bugs
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+| Date | Error | Handled | Solution |
+| :------------- | :------------- | :------------- | :------------- |
+|  |  |  |  |
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📫 Support and contact details
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you run into any problems or have any questions please contact me:
+- [Kaila Sprague McRae](mailto:kaila.sprague@icloud.com)
 
-## Learn More
+-------------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📘 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT License
 
-### Code Splitting
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Analyzing the Bundle Size
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2020 Kaila Sprague McRae
