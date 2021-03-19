@@ -10,16 +10,16 @@ const Projects = () => {
         image="https://media.giphy.com/media/iX5WqdLoWoCeLX5Rid/giphy.gif"
         title="Linger"
       />
-      {/* <Thumbnail 
-        link=""
-        image=""
-        title=""
+      <Thumbnail 
+        link="https://github.com/kaila-spraguemcrae/Guestly.Solution"
+        image="https://s2.gifyu.com/images/recording27d055e818848817.gif"
+        title="Guestly"
       />
       <Thumbnail 
-        link=""
-        image=""
-        title=""
-      /> */}
+        link="https://kaila-spraguemcrae.github.io/asmrbliss/"
+        image="https://media.giphy.com/media/APZHwaaobTPjq2peE7/giphy.gif"
+        title="ASMR Bliss"
+      />
     </>
   );
 }
