@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 // import Scene from './Scene';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
-import Contact from './Contact';
+// import Contact from './Contact';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <AboutMe />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }
