@@ -6,7 +6,7 @@ const Thumbnail = (props) => {
     <div className="project">
       <a href={props.link}>
         <div className="project-photo">
-          <img src={props.image} alt="Project"/>
+          <img className="proj-self" src={props.image} alt="Project"/>
         </div>
         <div className="project-title">{props.title}</div>
       </a>

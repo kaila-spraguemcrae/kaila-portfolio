@@ -8,10 +8,12 @@ import Projects from './Projects';
 function App() {
   return (
     <>
-      <NavBar />
-      <AboutMe />
-      <Projects />
-      {/* <Contact /> */}
+      <div className="container">
+        <NavBar />
+        <AboutMe />
+        <Projects />
+        {/* <Contact /> */} 
+      </div>
     </>
   );
 }
