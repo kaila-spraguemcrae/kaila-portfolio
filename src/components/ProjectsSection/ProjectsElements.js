@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  height: 860px;
+  width: 100%
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +19,7 @@ export const ProjectsContainer = styled.div`
 `
 
 export const ProjectsWrapper = styled.div`
-  mac-width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,14 +57,22 @@ export const ProjectsCard = styled.div`
 
 export const ProjectsImg = styled.img`
   height: 160px;
-  width: 160px;
+  width: auto;
   margin-bottom: 10px
 `
 
 export const ProjHeading = styled.h1`
-  font-size: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  grid-gap: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin: 0 0 24px 48px;
+  line-height: 1.1;
   color: #fff;
-  margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -71,6 +80,10 @@ export const ProjHeading = styled.h1`
 `
 
 export const ProjectTitile = styled.h2`
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
+`
+
+export const ProjectInfo = styled.p`
+  font-size: 1rem;
 `

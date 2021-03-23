@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import myself from '../../assets/img/myself3.jpg';
-import myself2 from '../../assets/img/myself.png';
 
 export const AboutContainer = styled.div`
   color: #fff;
@@ -84,8 +82,3 @@ export const Img = styled.img`
   border-radius: 50%;
   border: 20px solid #fff;
 `
-// export const Img2 = styled.img`
-//   width: 100%;
-//   border-radius: 50%;
-//   border: 10px solid #DC1D1E;
-// `
