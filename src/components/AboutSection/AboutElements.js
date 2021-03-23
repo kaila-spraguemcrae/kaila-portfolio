@@ -4,7 +4,7 @@ import myself2 from '../../assets/img/myself.png';
 
 export const AboutContainer = styled.div`
   color: #fff;
-  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '010606')};
+  background: ${({lightBg}) => (lightBg ? '#BEBB76' : '#97AB6D')};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -59,7 +59,7 @@ export const Heading = styled.h1`
   text-transform: uppercase;
   margin-bottom: 24px;
   line-height: 1.1;
-  color: ${({lightText}) => (lightText ? '#f7f8fa' : '010606')};
+  color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
   @media screen and (max-widthL 480px) {
     font-size: 32px;
@@ -82,12 +82,7 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
   width: 80%;
   border-radius: 50%;
-  border: 10px solid #DC1D1E;
-
-  $:hover {
-    opacity: 100%
-    transition: 0.2s ease-in-out;
-  }
+  border: 20px solid #fff;
 `
 // export const Img2 = styled.img`
 //   width: 100%;
