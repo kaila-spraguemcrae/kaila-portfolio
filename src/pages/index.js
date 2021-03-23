@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import AboutSection from '../components/AboutSection';
+import { aboutObjOne } from '../components/AboutSection/Data';
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
@@ -15,7 +16,7 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} handleToggle={handleToggle} />
       <Navbar handleToggle={handleToggle} />
-      <AboutSection />
+      <AboutSection {...aboutObjOne}/>
     </>
   )
 }

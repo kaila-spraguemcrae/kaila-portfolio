@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import myself from '../../assets/img/myself3.jpg';
+import myself2 from '../../assets/img/myself.png';
 
 export const AboutContainer = styled.div`
   color: #fff;
@@ -72,6 +74,23 @@ export const Paragraph = styled.p`
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 
-export const ImgWrap = styled.div``
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`
 
-export const Img = styled.img``
+export const Img = styled.img`
+  width: 80%;
+  border-radius: 50%;
+  border: 10px solid #DC1D1E;
+
+  $:hover {
+    opacity: 100%
+    transition: 0.2s ease-in-out;
+  }
+`
+// export const Img2 = styled.img`
+//   width: 100%;
+//   border-radius: 50%;
+//   border: 10px solid #DC1D1E;
+// `

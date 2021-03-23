@@ -1,22 +1,23 @@
 import React from 'react'
-import {AboutContainer, AboutWrapper, AboutRow, TextWrapper, Heading, Paragraph, Column2, Column1, ImgWrap, Img} from './AboutElements'
+import {AboutContainer, AboutWrapper, AboutRow, TextWrapper, Heading, Paragraph, Column2, Column1, ImgWrap, Img} from './AboutElements';
 
-const AboutSection = () => {
+
+const AboutSection = ({lightBg, id, imgStart, img, alt, lightText, heading, paragraph,darkText}) => {
   return (
     <>
-      <AboutContainer>
+      <AboutContainer lightBg={lightBg} id={id}>
         <AboutWrapper>
-          <AboutRow>
+          <AboutRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <Heading>Heading</Heading>
-                <Paragraph>Content</Paragraph>
-                {/* <MePhoto></MePhoto> */}
+                <Heading lightText={lightText}>{heading}</Heading>
+                <Paragraph darkText={darkText}>{paragraph}</Paragraph>
               </TextWrapper>
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img />
+                <Img src={img} alt={alt} />
+                {/* <Img2 src={img2}/> */}
               </ImgWrap>
             </Column2>
           </AboutRow>
