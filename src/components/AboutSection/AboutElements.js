@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+// import { proj1, proj2, proj3 } from './Data';
 
 export const AboutContainer = styled.div`
   color: #fff;

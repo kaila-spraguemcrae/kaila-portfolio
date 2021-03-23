@@ -19,8 +19,7 @@ export const ProjectsContainer = styled.div`
 `
 
 export const ProjectsWrapper = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 10%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -39,11 +38,13 @@ export const ProjectsWrapper = styled.div`
 
 export const ProjectsCard = styled.div`
   background: #fff;
-  displat:flex;
-  flex-direction: flex-start;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
   max-height: 340px;
+  max-width: 500px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
@@ -62,10 +63,6 @@ export const ProjectsImg = styled.img`
 `
 
 export const ProjHeading = styled.h1`
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  grid-gap: 16px;
   font-size: 48px;
   font-weight: 600;
   letter-spacing: 1.4px;
