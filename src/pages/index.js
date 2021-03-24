@@ -4,6 +4,7 @@ import { aboutObjOne } from '../components/AboutSection/Data';
 import Navbar from "../components/Navbar";
 import ProjectsSection from '../components/ProjectsSection';
 import Sidebar from "../components/Sidebar";
+import ContactSection from "../components/ContactSection";
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
       <Navbar handleToggle={handleToggle} />
       <AboutSection {...aboutObjOne}/>
       <ProjectsSection />
+      <ContactSection />
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectsContainer, ProjHeading, ProjectsWrapper, ProjectsCard, ProjectsImg, ProjectTitile, ProjectInfo } from './ProjectsElements';
+import { ProjectsContainer, ProjHeading, ProjectsWrapper, ProjectsCard, ProjectsImg, ProjectTitle, ProjectInfo } from './ProjectsElements';
 import { proj1, proj2, proj3 } from './Data';
 
 const Projects = () => {
@@ -9,19 +9,19 @@ const Projects = () => {
       <ProjectsWrapper>
         <ProjectsCard>
           <ProjectsImg src={proj1.img}/>
-          <ProjectTitile>{proj1.title}</ProjectTitile>
+          <ProjectTitle>{proj1.title}</ProjectTitle>
           {/* <ProjectButton></ProjectButton> */}
           <ProjectInfo>{proj1.info}</ProjectInfo>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsImg src={proj2.img}/>
-          <ProjectTitile>{proj2.title}</ProjectTitile>
+          <ProjectTitle>{proj2.title}</ProjectTitle>
           {/* <ProjectButton></ProjectButton> */}
           <ProjectInfo>{proj2.info}</ProjectInfo>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsImg src={proj3.img}/>
-          <ProjectTitile>{proj3.title}</ProjectTitile>
+          <ProjectTitle>{proj3.title}</ProjectTitle>
           {/* <ProjectButton></ProjectButton> */}
           <ProjectInfo>{proj3.info}</ProjectInfo>
         </ProjectsCard>
