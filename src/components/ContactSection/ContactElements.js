@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
   height: 860px;
+  padding-top: 10%;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -13,7 +14,7 @@ export const ContactHeading = styled.h1`
   font-weight: 600;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin: 10% 0 24px 10%;
+  margin: 0 0 24px 5%;
   line-height: 1.1;
   color: #fff;
 

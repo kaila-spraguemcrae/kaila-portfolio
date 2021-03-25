@@ -4,7 +4,7 @@ import { ContactContainer, ContactHeading, ContactWrapper, ContactItem, TextWrap
 
 const ContactSection = () => {
   return (
-    <ContactContainer id='content'>
+    <ContactContainer id='contact'>
       <ContactHeading>Contact</ContactHeading>
       <ContactWrapper>
         <ContactItem>

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
-  background: #557B21;
-  padding-top: 2%;
+  background: #617941;
+  padding-top: 10%;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -12,7 +12,6 @@ export const ProjectsContainer = styled.div`
 export const ProjectsWrapper = styled.div`
   height: 860px;
   width: 100%;
-  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
@@ -29,6 +28,7 @@ export const ProjWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
+  justify-content: center;
 
   @media screen and (max-width: 1300px) {
     grid-template-columns: 1fr 1fr;
@@ -47,7 +47,7 @@ export const ProjWrapper = styled.div`
 `
 
 export const ProjectsCard = styled.div`
-  background: #617940;
+  background: #97AB6E;
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -83,12 +83,12 @@ export const ProjHeading = styled.h1`
   font-weight: 600;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin: 0 0 24px 10%;
+  margin: 0 0 24px 5%;
   line-height: 1.1;
   color: #fff;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 32px;
   }
 `
 
