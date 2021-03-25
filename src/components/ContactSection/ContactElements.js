@@ -12,11 +12,12 @@ export const ContactContainer = styled.div`
 export const ContactHeading = styled.h1`
   font-size: 48px;
   font-weight: 600;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   margin: 0 0 24px 5%;
   line-height: 1.1;
-  color: #fff;
+  color: #00000;
+  text-align: center;
 
   @media screen and (max-widthL 480px) {
     font-size: 32px;
@@ -27,6 +28,9 @@ export const ContactWrapper = styled.div`
   margin: 0 10%;
   align-items: center;
   padding: 0 50px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
 
   @media screen and (max-width: 1300px) {
     grid-template-columns: 1fr 1fr;
@@ -45,19 +49,22 @@ export const ContactWrapper = styled.div`
 `
 
 export const ContactItem = styled.div`
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
 `
 
 export const ContactText = styled.h2`
   max-width: 440px;
   margin-bottom: 35px;
+  margin-left: 10px;
   font-size: 1.5rem;
   line-height: 24px;
-  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+  font-family: 'Jura', sans-serif;
+  display: inline;
+  text-align: center;
+  align-items: center;
 `

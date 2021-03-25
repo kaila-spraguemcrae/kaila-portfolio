@@ -2,8 +2,7 @@ import styled from 'styled-components';
 // import { proj1, proj2, proj3 } from './Data';
 
 export const AboutContainer = styled.div`
-  color: #fff;
-  background: ${({lightBg}) => (lightBg ? '#BEBB76' : '#97AB6D')};
+  background: '#97AB6D';
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -30,10 +29,10 @@ export const AboutRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+  grid-template-areas: 'col2 col1';
   
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
+    grid-template-areas: 'col1' 'col2'
   }
 `
 
@@ -58,11 +57,11 @@ export const TextWrapper = styled.div`
 export const Heading = styled.h1`
   font-size: 48px;
   font-weight: 600;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 24px;
   line-height: 1.1;
-  color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+  color: #fff;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -74,7 +73,8 @@ export const Paragraph = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+  font-family: 'Jura', sans-serif;
+  color: '#fff';
 `
 
 export const ImgWrap = styled.div`

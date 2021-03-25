@@ -18,7 +18,7 @@ export const ProjectsWrapper = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    height: 960px;
+    height: 1050px;
   }
 `
 
@@ -81,11 +81,11 @@ export const ProjectsImg = styled.img`
 export const ProjHeading = styled.h1`
   font-size: 48px;
   font-weight: 600;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   margin: 0 0 24px 5%;
   line-height: 1.1;
-  color: #fff;
+  color: #00000;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -93,12 +93,15 @@ export const ProjHeading = styled.h1`
 `
 
 export const ProjectTitle = styled.h2`
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #fff;
 `
 
 export const ProjectInfo = styled.p`
+  font-family: 'Jura', sans-serif;
   font-size: 1rem;
   color: #fff;
 `

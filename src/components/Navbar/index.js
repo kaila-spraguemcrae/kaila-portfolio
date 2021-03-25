@@ -3,11 +3,12 @@ import {FaBars} from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
 
 const Navbar = ({handleToggle}) => {
+
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">KSM</NavLogo>
+          <NavLogo>{window.innerWidth < 400 ? 'KSM' : 'KAILA SPRAGUE MCRAE'}</NavLogo>
           <MobileIcon onClick={handleToggle}>
             <FaBars />
           </MobileIcon>

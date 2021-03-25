@@ -37,8 +37,10 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 24px;
-  font-weight: bold;
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
   text-decoration: none;
+
 `
 export const MobileIcon = styled.div`
   display: none;
@@ -80,6 +82,7 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer; 
+  font-family: 'Jura', sans-serif;
 
   &.active {
     border-bottom: 3px solid #DC1D1E;

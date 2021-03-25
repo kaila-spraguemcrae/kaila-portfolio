@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+
 body, .navbar {
   background-color:#97AB6D;
 }
@@ -11,7 +15,3 @@ body, .navbar {
   border-radius: 50%;
   width: 200px;
 }
-
-$theme-colors: (
-  "green": #7dbd94
-);
