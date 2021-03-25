@@ -20,6 +20,10 @@ export const AboutWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    height: 920px;
+  }
 `
 
 export const AboutRow = styled.div`
@@ -81,5 +85,5 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
   width: 80%;
   border-radius: 50%;
-  border: 20px solid #fff;
+  border: 20px solid #617940;
 `
