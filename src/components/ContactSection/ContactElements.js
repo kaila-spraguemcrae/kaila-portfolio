@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
-  height: 860px;
+  height: 560px;
   padding-top: 10%;
+  align-items: center;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
