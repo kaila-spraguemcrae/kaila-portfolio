@@ -5,6 +5,10 @@ export const ContactContainer = styled.div`
   padding-top: 10%;
 
   @media screen and (max-width: 768px) {
+    padding: 75px 0 0 0;
+  }
+
+  @media screen and (max-width: 500px) {
     padding: 100px 0;
   }
 `
@@ -14,7 +18,7 @@ export const ContactHeading = styled.h1`
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin: 0 0 24px 5%;
+  margin: 0 5% 24px 5%;
   line-height: 1.1;
   color: #00000;
   text-align: center;
@@ -25,9 +29,7 @@ export const ContactHeading = styled.h1`
 `
 
 export const ContactWrapper = styled.div`
-  margin: 0 0 24px 5%;
-  ${'' /* align-items: center; */}
-  ${'' /* padding: 0 50px; */}
+  margin: 8% 5% 24px 5%;
   text-align: center;
 `
 

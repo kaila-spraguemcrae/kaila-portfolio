@@ -5,7 +5,11 @@ export const ProjectsContainer = styled.div`
   padding-top: 10%;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 75px 0 190px 0;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding: 50px 0 100px 0;
   }
 `
 
@@ -97,11 +101,11 @@ export const ProjectTitle = styled.h2`
   font-weight: 600;
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #fff;
+  color: #00000;
 `
 
 export const ProjectInfo = styled.p`
   font-family: 'Jura', sans-serif;
   font-size: 1rem;
-  color: #fff;
+  color: #00000;
 `

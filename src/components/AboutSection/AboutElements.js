@@ -61,7 +61,7 @@ export const Heading = styled.h1`
   text-transform: uppercase;
   margin-bottom: 24px;
   line-height: 1.1;
-  color: #fff;
+  color: #00000;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -74,7 +74,7 @@ export const Paragraph = styled.p`
   font-size: 18px;
   line-height: 24px;
   font-family: 'Jura', sans-serif;
-  color: '#fff';
+  color: 'white';
 `
 
 export const ImgWrap = styled.div`
