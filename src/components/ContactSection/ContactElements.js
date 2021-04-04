@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const ContactContainer = styled.div`
   height: 560px;
   padding-top: 10%;
-  align-items: center;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -26,36 +25,17 @@ export const ContactHeading = styled.h1`
 `
 
 export const ContactWrapper = styled.div`
-  margin: 0 10%;
-  align-items: center;
-  padding: 0 50px;
-  display: inline-block;
+  margin: 0 0 24px 5%;
+  ${'' /* align-items: center; */}
+  ${'' /* padding: 0 50px; */}
   text-align: center;
-  justify-content: center;
-
-  @media screen and (max-width: 1300px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-  }
-
-  @media screen and (max-width: 500px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-    margin: auto;
-  }
 `
 
 export const ContactItem = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
-  grid-area: col2;
   display: inline-block;
   text-align: center;
-  align-items: center;
 `
 
 export const ContactText = styled.h2`
