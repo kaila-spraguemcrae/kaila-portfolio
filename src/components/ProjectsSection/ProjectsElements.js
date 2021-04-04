@@ -9,7 +9,7 @@ export const ProjectsContainer = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    padding: 50px 0 100px 0;
+    padding: 110px 0 100px 0;
   }
 `
 
@@ -70,8 +70,8 @@ export const ProjectsCard = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    max-width: 300px;
-    padding: 0;
+    max-width: 325px;
+    padding: 10px 0 0 0;
   }
 `
 
@@ -91,8 +91,13 @@ export const ProjHeading = styled.h1`
   line-height: 1.1;
   color: #00000;
 
+  @media screen and (max-width: 768px) {
+    margin: 5%;
+  }
+
   @media screen and (max-width: 480px) {
     font-size: 32px;
+    margin: 5%;
   }
 `
 
@@ -102,10 +107,18 @@ export const ProjectTitle = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #00000;
+
+  @media screen and (max-width: 768px) {
+    margin: 5% 0 0 0;
+  }
 `
 
 export const ProjectInfo = styled.p`
   font-family: 'Jura', sans-serif;
   font-size: 1rem;
   color: #00000;
+
+  @media screen and (max-width: 768px) {
+    margin: 3% 2% 5% 2%;
+  }
 `

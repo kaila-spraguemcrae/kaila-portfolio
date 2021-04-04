@@ -9,7 +9,7 @@ export const ContactContainer = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    padding: 100px 0;
+    padding: 75px 0 0 0;
   }
 `
 
