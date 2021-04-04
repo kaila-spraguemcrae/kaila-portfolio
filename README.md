@@ -22,12 +22,7 @@
 This project uses the following technologies:
 
 - React
-- Sass
-- [Bootstrap 5](https://getbootstrap.com/) 
-- [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
-- [three.js](https://threejs.org/)
-- [drei](https://github.com/pmndrs/drei)
-- WebGL
+- Styled Components
 - [react-scroll](https://github.com/fisshy/react-scroll)
 - JSX
 - JavaScript ES6
@@ -87,13 +82,13 @@ Your app is ready to be deployed!
 
 --------------------------
 
-## 🐛 Known Bugs
+<!-- ## 🐛 Known Bugs
 
 | Date | Error | Handled | Solution |
 | :------------- | :------------- | :------------- | :------------- |
 |  |  |  |  |
 
--------------------
+------------------- -->
 
 ## 📫 Support and contact details
 
