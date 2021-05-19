@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
 
 export const ProjectsContainer = styled.div`
   background: #617941;
@@ -11,7 +12,7 @@ export const ProjectsContainer = styled.div`
   @media screen and (max-width: 500px) {
     padding: 110px 0 100px 0;
   }
-`
+`;
 
 export const ProjectsWrapper = styled.div`
   height: 860px;
@@ -24,7 +25,7 @@ export const ProjectsWrapper = styled.div`
   @media screen and (max-width: 768px) {
     height: 1050px;
   }
-`
+`;
 
 export const ProjWrapper = styled.div`
   margin: 0 10%;
@@ -48,11 +49,12 @@ export const ProjWrapper = styled.div`
     padding: 0 20px;
     margin: auto;
   }
-`
+`;
 
-export const ProjectsCard = styled.div`
-  background: #97AB6E;
-  display:flex;
+export const ProjectsCard = styled.a`
+  text-decoration: none;
+  background: #97ab6e;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -60,8 +62,9 @@ export const ProjectsCard = styled.div`
   max-height: 340px;
   max-width: 380px;
   padding: 30px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  color: black;
 
   &:hover {
     transform: scale(1.02);
@@ -73,14 +76,14 @@ export const ProjectsCard = styled.div`
     max-width: 325px;
     padding: 10px 0 0 0;
   }
-`
+`;
 
 export const ProjectsImg = styled.img`
   height: 160px;
   width: auto;
   margin-bottom: 10px;
   border-radius: 2%;
-`
+`;
 
 export const ProjHeading = styled.h1`
   font-size: 48px;
@@ -99,10 +102,10 @@ export const ProjHeading = styled.h1`
     font-size: 32px;
     margin: 5%;
   }
-`
+`;
 
 export const ProjectTitle = styled.h2`
-  font-family: 'Jura', sans-serif;
+  font-family: "Jura", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
   margin-bottom: 10px;
@@ -111,14 +114,14 @@ export const ProjectTitle = styled.h2`
   @media screen and (max-width: 768px) {
     margin: 5% 0 0 0;
   }
-`
+`;
 
 export const ProjectInfo = styled.p`
-  font-family: 'Jura', sans-serif;
+  font-family: "Jura", sans-serif;
   font-size: 1rem;
   color: #00000;
 
   @media screen and (max-width: 768px) {
     margin: 3% 2% 5% 2%;
   }
-`
+`;
