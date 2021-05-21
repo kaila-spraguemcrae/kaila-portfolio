@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kaila-portfolio/static/css/main.20018e5b.chunk.css",
+    "main.js": "/kaila-portfolio/static/js/main.3c4ab9b2.chunk.js",
+    "main.js.map": "/kaila-portfolio/static/js/main.3c4ab9b2.chunk.js.map",
+    "runtime-main.js": "/kaila-portfolio/static/js/runtime-main.0486fa2e.js",
+    "runtime-main.js.map": "/kaila-portfolio/static/js/runtime-main.0486fa2e.js.map",
+    "static/js/2.3828ad70.chunk.js": "/kaila-portfolio/static/js/2.3828ad70.chunk.js",
+    "static/js/2.3828ad70.chunk.js.map": "/kaila-portfolio/static/js/2.3828ad70.chunk.js.map",
+    "index.html": "/kaila-portfolio/index.html",
+    "static/css/main.20018e5b.chunk.css.map": "/kaila-portfolio/static/css/main.20018e5b.chunk.css.map",
+    "static/js/2.3828ad70.chunk.js.LICENSE.txt": "/kaila-portfolio/static/js/2.3828ad70.chunk.js.LICENSE.txt",
+    "static/media/Resume_KailaSpragueMcRae.0576f355.pdf": "/kaila-portfolio/static/media/Resume_KailaSpragueMcRae.0576f355.pdf",
+    "static/media/myself.a5a7432d.png": "/kaila-portfolio/static/media/myself.a5a7432d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0486fa2e.js",
+    "static/js/2.3828ad70.chunk.js",
+    "static/css/main.20018e5b.chunk.css",
+    "static/js/main.3c4ab9b2.chunk.js"
+  ]
+}
