@@ -26,7 +26,7 @@ const Navbar = ({ handleToggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about" smooth>
+              <NavLinks to="about" offset={100} smooth>
                 About
               </NavLinks>
             </NavItem>
