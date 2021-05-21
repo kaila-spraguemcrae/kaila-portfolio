@@ -24,7 +24,7 @@ export const AboutWrapper = styled.div`
     height: 980px;
   }
   @media screen and (min-height: 552px) {
-    height: 1080px;
+    height: 1000px;
   }
 `;
 
