@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
+// import { Link as LinkR } from "react-router-dom"; (for resume link)
 
 export const ProjectsContainer = styled.div`
   background: #617941;
@@ -11,6 +11,10 @@ export const ProjectsContainer = styled.div`
 
   @media screen and (max-width: 500px) {
     padding: 110px 0 100px 0;
+  }
+
+  @media screen and (max-width: 1171px) {
+    height: 1050px;
   }
 `;
 
@@ -65,11 +69,13 @@ export const ProjectsCard = styled.a`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   color: black;
+  filter: drop-shadow(-5px 5px 1px #354239);
 
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    filter: drop-shadow(-5px 5px 6px #354239);
   }
 
   @media screen and (max-width: 500px) {
@@ -90,7 +96,7 @@ export const ProjHeading = styled.h1`
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin: 0 0 24px 5%;
+  margin: 0 0 54px 5%;
   line-height: 1.1;
   color: #00000;
 
