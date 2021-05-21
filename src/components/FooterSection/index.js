@@ -2,10 +2,11 @@ import React from "react";
 import { FooterText, Source } from "./FooterElements";
 
 const Footer = () => {
+  const text = "Kaila Sprague McRae | ";
   return (
     <div>
       <FooterText>
-        Kaila Sprague McRae |{" "}
+        {text}
         <Source
           href="https://github.com/kaila-spraguemcrae/kaila-portfolio"
           target="_blank"

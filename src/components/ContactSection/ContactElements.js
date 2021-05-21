@@ -11,6 +11,10 @@ export const ContactContainer = styled.div`
   @media screen and (max-width: 500px) {
     padding: 75px 0 0 0;
   }
+
+  @media screen and (max-height: 552px) {
+    height: 780px;
+  }
 `;
 
 export const ContactHeading = styled.h1`
@@ -23,7 +27,7 @@ export const ContactHeading = styled.h1`
   color: #00000;
   text-align: center;
 
-  @media screen and (max-widthl 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 32px;
   }
 `;
